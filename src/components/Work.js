@@ -3,9 +3,11 @@ import Project from "./Project";
 import Aesthetic from "../assets/aesthetic.webp";
 import Gym from "../assets/gym.webp";
 import Netflix from "../assets/netclone.png";
-import Weather from "../assets/weather.webp";
-import Social from "../assets/social.webp";
-import Prada from "../assets/prada.webp";
+import fc from "../assets/fc.png";
+import na from "../assets/na.png";
+import td from "../assets/td.png";
+
+import prada from "../assets/prada.webp";
 import Linkedin from "../assets/linkedin.webp";
 const Work = () => {
   return (
@@ -25,10 +27,34 @@ const Work = () => {
         "
         >
           <Project
+            IMAGE={na}
+            demo="https://nike-app-six.vercel.app/"
+            code="https://github.com/Pawansingh121/NikeApp"
+            projectName="*Add to Cart"
+          />
+          <Project
+            IMAGE={td}
+            demo="https://trailer-dekho.vercel.app/"
+            code="https://github.com/Pawansingh121/TrailerDekho"
+            projectName="*TrailerDekho"
+          />
+          <Project
+            IMAGE={fc}
+            demo="https://fb-clone-tawny.vercel.app/"
+            code="https://github.com/Pawansingh121/fb-clone"
+            projectName="*FB Clone"
+          />
+          <Project
             IMAGE={Aesthetic}
             demo="https://aesthetic-design.vercel.app/"
             code="https://github.com/Pawansingh121/aesthetic-design"
-            projectName="*Aesthetic Web Design"
+            projectName="*Aesthetic Design"
+          />
+          <Project
+            IMAGE={prada}
+            demo="https://prada-clone.vercel.app/"
+            code="https://github.com/Pawansingh121/Prada-clone"
+            projectName="*Prada Clone"
           />
           <Project
             IMAGE={Linkedin}
@@ -36,6 +62,7 @@ const Work = () => {
             code="https://github.com/Pawansingh121/linkedin-clone"
             projectName="*Linkedin Clone"
           />
+
           <Project
             IMAGE={Gym}
             demo="https://exercisehub1.netlify.app/"
@@ -47,24 +74,6 @@ const Work = () => {
             demo=" https://netflix-clone-design.netlify.app/"
             code="https://github.com/Pawansingh121/netflix-design"
             projectName="*Netflix Clone"
-          />
-          <Project
-            IMAGE={Weather}
-            demo="https://weather-app-one-chi-35.vercel.app/"
-            code="https://github.com/Pawansingh121/weather-app"
-            projectName="*Simple Weather App"
-          />
-          <Project
-            IMAGE={Prada}
-            demo="https://prada-clone.vercel.app/"
-            code="https://github.com/Pawansingh121/Prada-clone"
-            projectName="*Prada clone "
-          />
-          <Project
-            IMAGE={Social}
-            demo=" https://socialairy.netlify.app"
-            code="https://github.com/Pawansingh121/scoial-media-design"
-            projectName="*Simple Social media design"
           />
         </div>
       </div>
