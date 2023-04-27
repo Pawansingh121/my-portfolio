@@ -34,7 +34,7 @@ const Work = () => {
           />
           <Project
             IMAGE={td}
-            demo="https://trailer-dekho.vercel.app/"
+            demo="https://trailer-dekho-r.vercel.app/"
             code="https://github.com/Pawansingh121/TrailerDekho"
             projectName="*TrailerDekho"
           />
