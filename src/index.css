@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
+body{
+      background-color: #f1f1f1;
+}
+
 @layer base {
       body {
             @apply font-[Raleway];
@@ -26,3 +30,4 @@
             hsla(242,74%, 61%, 0.8)
        )!important;
 }
+
